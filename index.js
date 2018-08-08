@@ -30,6 +30,8 @@ function distanceTravelledInFeet(beg, dest) {
 }
 
 function calculatesFarePrice(start, destination) {
-  distanceTravelledInFeet(start, destination); 
+  const distance = distanceTravelledInFeet(start, destination); 
+  
+  if (distance )
   
 }

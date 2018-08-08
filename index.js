@@ -30,5 +30,6 @@ function distanceTravelledInFeet(beg, dest) {
 }
 
 function calculatesFarePrice(start, destination) {
-  distanceTravelledInFeet
+  distanceTravelledInFeet(start, destination); 
+  
 }
